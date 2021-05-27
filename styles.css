@@ -162,10 +162,10 @@ h4 {
 -------------------------------------------------- */
 
 @media (min-width: 40em) {
-  /* Bump up size of carousel content */
+  /* Bump up size of hero content */
   .hero-inner h1 {
     margin-bottom: 1.25rem;
-    font-size: 5.25rem;
+    font-size: 4.25rem;
     line-height: 1.4;
   }
 
