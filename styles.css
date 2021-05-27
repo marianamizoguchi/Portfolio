@@ -90,7 +90,7 @@ h4 {
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
   position: fixed;
-  top: 50%;
+  top: 75%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -144,7 +144,7 @@ h4 {
 
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-  background-color: white
+  background-color: gray;
 }
 
 /* Thin out the marketing headings */
@@ -155,9 +155,15 @@ h4 {
   letter-spacing: -.05rem;
 }
 
+.email{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  text-align: right;
+}
+
 .project-divider {
   margin: 2rem 0;
-  background-color:white
+  background-color: white;
 
 }
 
@@ -179,11 +185,12 @@ h4 {
 
 @media (min-width: 62em) {
   .featurette-heading {
-    margin-top: 7rem;
+    margin-top: 3rem;
   }
 }
 
 
 li{
   font-family: 'Courier New', Courier, monospace;
+
 }
