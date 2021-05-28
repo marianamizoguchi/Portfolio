@@ -81,7 +81,7 @@ h4 {
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
   position: absolute;
-  top: 85%;
+  top: 20%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -180,8 +180,19 @@ h4 {
   }
 }
 
-
 li{
   font-family: 'Courier New', Courier, monospace;
 
 }
+
+.other{
+  
+  padding: 2em;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+
+}
+
