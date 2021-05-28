@@ -146,18 +146,10 @@ h4 {
   letter-spacing: -.05rem;
 }
 
-.email{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: medium;
-  text-align: right;
-}
-
 .project-divider {
-  margin: 2rem 0;
+  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
   background-color: white;
-
 }
-
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -187,7 +179,7 @@ li{
 
 /* GRID CSS
 -------------------------------------------------- */
-.grid{
+  .grid{
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -245,7 +237,6 @@ li{
     fill: currentColor;
   }
 
-  
   .feature-icon {
     display: inline-flex;
     align-items: center;
